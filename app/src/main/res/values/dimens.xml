@@ -7,5 +7,7 @@
     <dimen name="layoutMargin">20dp</dimen>
     <dimen name="btnRadius">8dp</dimen>
     <dimen name="cardElevation">4dp</dimen>
+    <dimen name="logoWidth">250dp</dimen>
+    <dimen name="logoHeight">60dp</dimen>
 
 </resources>

@@ -20,18 +20,19 @@
         android:layout_margin="@dimen/layoutMargin"
         >
 
-        <TextView
+        <ImageView
             android:id="@+id/logoTxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/logoWidth"
+            android:layout_height="@dimen/logoHeight"
             android:fontFamily="cursive"
+            android:src="@drawable/chatify_white"
             android:gravity="center"
-            android:text="@string/logoStr"
-            android:textColor="@color/beige"
-            android:textSize="@dimen/text_size_large"
+            android:layout_marginTop="5dp"
             android:textStyle="bold"
             >
-        </TextView>
+        </ImageView>
+
+
 
         <EditText
             android:layout_width="match_parent"
