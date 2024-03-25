@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">assignment1</string>
+    <string name="logoStr">Chatify</string>
+    <string name="fname">First Name </string>
+    <string name="Lname">Last Name </string>
+    <string name="email">Email Id</string>
+    <string name="pass">Password </string>
+    <string name="Cpass">Confirm Password </string>
 </resources>

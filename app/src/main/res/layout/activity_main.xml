@@ -6,8 +6,102 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/darkBlue">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear1"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:layout_margin="@dimen/layoutMargin"
+        >
 
+        <TextView
+            android:id="@+id/logoTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/logoStr"
+            android:textColor="@color/beige"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/fname"
+            android:textColor="@color/beige"
+            android:textColorHint="@color/beige"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:id="@+id/fnameTxt">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/Lname"
+            android:textColor="@color/beige"
+            android:textColorHint="@color/beige"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:id="@+id/LnameTxt">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/email"
+            android:textColor="@color/beige"
+            android:textColorHint="@color/beige"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:id="@+id/EmailTxt">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/pass"
+            android:textColor="@color/beige"
+            android:textColorHint="@color/beige"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:inputType="textPassword"
+            android:id="@+id/passTxt">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/Cpass"
+            android:textColor="@color/beige"
+            android:textColorHint="@color/beige"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:id="@+id/CpassTxt">
+
+        </EditText>
+
+    </LinearLayout>
 </LinearLayout>
