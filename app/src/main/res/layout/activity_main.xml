@@ -29,7 +29,8 @@
             android:text="@string/logoStr"
             android:textColor="@color/beige"
             android:textSize="@dimen/text_size_large"
-            android:textStyle="bold">
+            android:textStyle="bold"
+            >
         </TextView>
 
         <EditText
@@ -102,6 +103,79 @@
             android:id="@+id/CpassTxt">
 
         </EditText>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_small"
+            >
+            <RadioButton
+                android:id="@+id/yes_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:textColor="@color/beige"
+
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/no_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Female"
+                android:textColor="@color/beige"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin_medium">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardCornerRadius="@dimen/btnRadius"
+                app:cardElevation="@dimen/cardElevation"
+                app:cardBackgroundColor="@color/blue"
+                android:layout_marginEnd="8dp">
+
+                <Button
+                    android:id="@+id/signUpBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signUpBtn"
+                    android:textColor="@android:color/white"
+                    android:background="@null"
+                    android:padding="16dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardCornerRadius="@dimen/btnRadius"
+                app:cardElevation="@dimen/cardElevation"
+                app:cardBackgroundColor="@color/blue">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/extBtn"
+                    android:textColor="@android:color/white"
+                    android:background="@null"
+                    android:padding="16dp" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 </LinearLayout>
