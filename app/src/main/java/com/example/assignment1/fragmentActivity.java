@@ -38,6 +38,7 @@ public class fragmentActivity extends AppCompatActivity {
                 loadFragment(new Fragment2());
             }
         });
+
     }
 
     private void loadFragment(Fragment fragment) {
