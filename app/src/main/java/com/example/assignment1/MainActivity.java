@@ -1,5 +1,6 @@
 package com.example.assignment1;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent =new Intent(MainActivity.this, page2.class);
+                startActivity(intent);
 
             }
         });
