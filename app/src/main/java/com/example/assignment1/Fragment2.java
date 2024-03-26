@@ -67,16 +67,7 @@ public class Fragment2 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_2, container, false);
 
         // Setting Button Instance
-        Button btnpg3 = view.findViewById(R.id.btnPg3);
 
-        // Linking Button Click to Page3
-        btnpg3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Navigate to Page3
-                Intent intent = new Intent(getActivity(), page3.class);
-                startActivity(intent);
-            }
-        });
+        return view;
     }
 }

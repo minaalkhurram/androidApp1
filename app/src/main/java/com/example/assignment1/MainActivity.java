@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(MainActivity.this, page3.class);
+                Intent intent =new Intent(MainActivity.this, fragmentActivity.class);
                 startActivity(intent);
 
 
